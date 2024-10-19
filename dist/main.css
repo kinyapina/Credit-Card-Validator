@@ -1,4 +1,75 @@
 body {
-  background-color: #ffffffb4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.check-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card-list {
+  display: flex;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.img-card {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.visa {
+  background-image: url("https://img.icons8.com/color-glass/50/visa.png");
+}
+
+.master-card {
+  background-image: url("https://img.icons8.com/color/50/mastercard.png");
+}
+
+.american-express {
+  background-image: url("https://img.icons8.com/external-those-icons-lineal-color-those-icons/50/external-American-Express-payment-methods-those-icons-lineal-color-those-icons.png");
+}
+
+.discover {
+  background-image: url("https://img.icons8.com/external-those-icons-lineal-color-those-icons/50/external-Discover-payment-methods-those-icons-lineal-color-those-icons.png");
+}
+
+.jcb {
+  background-image: url("https://img.icons8.com/stickers/50/jcb.png");
+}
+
+.diners {
+  background-image: url("https://img.icons8.com/office/50/diners-club.png");
+}
+
+#card-number {
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #a8ada9;
+  width: 200px;
+}
+
+.img-card-disactive {
+  opacity: 5%;
+}
+
+#validate-btn {
+  width: 120px;
+  background-color: #47ad58;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
 }
 

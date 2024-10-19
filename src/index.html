@@ -4,11 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Check Credit Card Numbers</title>
 </head>
 
 <body>
-
+  <div class="container">
+    <h3 class="check-text">Check your credit card number</h3>
+    <ul class="card-list">
+      <li class="img-card visa"></li>
+      <li class="img-card master-card"></li>
+      <li class="img-card american-express"></li>
+      <li class="img-card discover"></li>
+      <li class="img-card jcb"></li>
+      <li class="img-card diners"></li>
+    </ul>
+    <form action="#" class="card-widget">
+      <input type="text" class="input-card-number" name="card-number" placeholder="Введите номер карты" minlength="14"
+        maxlength="19" required />
+      <button class="btn" type="submit">Click to validate</button>
+    </form>
+  </div>
 </body>
 
 </html>
